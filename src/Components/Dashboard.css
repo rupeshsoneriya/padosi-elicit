@@ -1,0 +1,275 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.Dashboard-main-div {
+    margin-top: 14px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.dashboard-side-div {
+    background-color: #2ecc71; 
+    margin-top: -15px;
+    padding: auto;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    max-width: 16.758%;
+    background-color: #ecf0f1; 
+}
+
+.dashboard-side-div h3 {
+    height: 24px;
+    font-size: 18px; 
+    font-weight: bold;
+    color: #2c3e50; 
+}
+.dashboard-side-div .Admin-Profile{
+    padding-top: 20px !important;
+} 
+@media only screen and (max-width: 600px) {
+    .dashboard-side-div h3 {
+        font-size: 14px !important; 
+        margin-top: 54px !important;
+    }
+
+    .dashboard-side-div {
+        margin-top: -15.5%;
+        font-size: 16px; 
+    }
+
+    .Admin-Profile h4 {
+        height: 21px;
+        width: 235px;
+        font-size: 14px; 
+        font-weight: bold;
+        
+    }
+    .dashboard-side-div .Admin-Profile{
+        padding-top: 20px !important;
+    }    
+
+    .search-bar {
+        margin-left: 6% !important;
+        font-size: 16px; 
+        margin-left: 15px !important;
+        border-radius: 5px;
+        margin-left: 10px;
+    }
+
+    .dashboard-header {
+        width: 78%;
+        font-size: 16px; 
+    }
+
+    .Navigation .ul li {
+        font-size: 14px; 
+    }
+}
+
+.Admin-Profile img {
+    width: 100%;
+    height: 100%;
+    max-width: 32%;
+    border-radius: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Admin-Profile h6 {
+    color: #F8D442;
+    font-size: 14px; 
+    margin: 0;
+    padding: 0;
+    height: 17px;
+}
+
+.Navigation ul li .links {
+    text-decoration: none !important;
+    text-align: center !important;
+    display: block;
+    justify-content: center !important;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    color: #2c3e50; 
+}
+
+.Navigation {
+    margin-top: 15px;
+    padding: 0px;
+}
+
+.links:hover {
+    background-color: #F8D442;
+    cursor: pointer;
+}
+
+.Logout ul li .links {
+    margin-top: 40px;
+    text-decoration: none !important;
+    text-align: center !important;
+    display: block;
+    justify-content: center !important;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    color: #2c3e50;
+}
+
+i {
+    padding: 10px;
+}
+
+.dashboard-header {
+    width: 100%;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.dashboard-Content-div {
+    margin-top: -15px;
+    width: 85%;
+    height: 100vh;
+    justify-content: right;
+    background-color: #dcdde1; 
+}
+.search-bar {
+    border: 2px solid #E5E5E5;
+    padding: 0;
+    justify-content: right;
+    background-color: #ecf0f1; 
+    border-radius: 2%;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.search-input {
+    height: 30px;
+    width: 190px;
+    border: none;
+    outline: none;
+}
+
+.data-content-div {
+    padding-top: 20px;
+    display: flex;
+}
+
+.Student {
+    width: 255px;
+    height: 157px;
+    background-color: #2ecc71; /* Emerald Green */
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.Course {
+    width: 255px;
+    height: 157px;
+    background-color: #f6eed5;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.Payments {
+    width: 255px;
+    height: 157px;
+    background-color: #fffe7a;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.User {
+    width: 255px;
+    height: 157px;
+    background-color: #e4d00a;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.icon-name i {
+    font-size: 45px;
+    margin-bottom: -21px;
+    margin-right: 133px;
+}
+
+.icon-name p {
+    font-weight: bold;
+    margin-right: 100px;
+}
+
+.h6 {
+    font-weight: bold;
+    justify-content: left;
+    text-align: center;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-div {
+        width: 100%;
+    }
+
+    .Dashboard-main-div {
+        margin-top: 14px;
+        padding-top: 0px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: start;
+        display: block;
+    }
+
+    .dashboard-Content-div {
+        margin-top: -15px;
+        width: 100%;
+        height: 100vh;
+        justify-content: right;
+        background-color: #ecf0f1; 
+    }
+
+    .dashboard-header {
+        width: 100%;
+        max-width: 1180px;
+        height: 45px;
+        margin: 0;
+        padding: 0;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        background-color: #FFFFFF;
+    }
+
+    .data-content-div {
+        padding-top: 20px;
+        padding-left: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 14px 0;
+        width: 100%;
+    }
+
+    .Student .Payments .Course .User {
+        margin-left: 0;
+    }
+
+    .dashboard-Content-div {
+        height: auto;
+    }
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}

@@ -1,0 +1,91 @@
+.StudentData {
+    background-color: #f2f2f2; 
+    height: 90vh;
+    width: 100%;
+}
+
+.heading {
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-content: space-between;
+}
+
+.add-btn {
+    margin-bottom: 6px;
+    width: 199px;
+    height: 44px;
+    color: white;
+    background-color: #3498db; 
+    font-weight: bold;
+    margin-top: 10px;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Arial', sans-serif; 
+}
+
+hr {
+    margin: 0px;
+    padding: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    .add-btn {
+        margin-left: 81px;
+        width: 150px;
+        font-size: small;
+        font-weight: bold;
+    }
+
+    .heading h2 {
+        font-size: medium;
+    }
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.data {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.td {
+    padding-top: 30px !important;
+}
+
+.delete-edit {
+    border: none;
+}
+
+.delete-edit:hover {
+    cursor: pointer;
+}
+
+.student-data h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.delete-edit-btn {
+    border: none;
+    background: none;
+}
+
+.heading h2 {
+    width: 200px;
+    height: 27px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #2c3e50; 
+    font-family: 'Helvetica', sans-serif; 
+}

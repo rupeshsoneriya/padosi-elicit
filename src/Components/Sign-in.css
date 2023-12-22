@@ -1,0 +1,118 @@
+.add-Student-main-div {
+    width: 100%;
+    height: 91vh;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+    background-color: #34495e;
+}
+
+.add-Student-form {
+    width: 90%;
+    max-width: 475px;
+    height: auto; 
+    background-color: #ecf0f1; 
+    border-radius: 10px;
+    padding: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.8s ease-in-out; 
+}
+.form-group{
+    padding-bottom: 30px;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.add-Student-form h3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px; 
+    margin-bottom: 20px; 
+    color: #2c3e50; 
+}
+
+@media only screen and (max-width: 600px) {
+    .add-Student-form h3 {
+        font-size: 18px; 
+    }
+}
+
+.input-feled {
+    display: flex;
+    flex-direction: column; 
+}
+
+.input-feled input {
+    width: 100%;
+    height: 40px; 
+    margin-bottom: 15px; 
+    border: 2px solid #3498db; 
+    border-radius: 5px;
+    padding: 8px; 
+    transition: border-color 0.3s ease-in-out; 
+}
+
+.input-feled input:focus {
+    border-color: #f39c12;
+}
+
+.heading2 {
+    margin-top: 20px;
+    height: 20px;
+    font-weight: bold;
+    font-size: 18px; 
+    color: #2c3e50; 
+}
+
+.row {
+    margin-bottom: 20px !important; 
+}
+
+.photo {
+    font-size: 16px; 
+    margin-left: 5px;
+    font-weight: bold;
+    color: #2c3e50; 
+}
+
+#btn {
+    margin: 15px 0 !important; 
+}
+
+.submit-btn {
+    background-color: #f39c12; 
+    color: #2c3e50;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.submit-btn:hover {
+    background-color: #e74c3c; 
+}
+
+.cross-btn {
+    border: none;
+    font-weight: bold;
+    font-size: 24px;
+    background: #ecf0f1;
+    border-radius: 50%;
+    margin-left: auto; 
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out; 
+}
+
+.cross-btn:hover {
+    background-color: #c0392b; 
+}

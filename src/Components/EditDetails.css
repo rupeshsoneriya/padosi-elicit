@@ -1,0 +1,19 @@
+.add-Student-form-Edit {
+    width: 100%;
+    height: 75%;
+    max-width: 475px;
+    max-height: 550px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.add-Student-form-Edit h3 {
+    text-transform: uppercase;
+    padding-top: 5px !important;
+    text-align: center;
+    font-weight: bold;
+    height: 39px;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 33px !important;
+}
