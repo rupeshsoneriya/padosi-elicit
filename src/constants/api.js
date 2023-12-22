@@ -1,2 +1,6 @@
 export const AUTH_LOGIN = 'auth/login'
-export const Township= 'township'
+export const Township_Add= 'township'
+export const Update_Township_Details='township'
+export const Delete_Township_Details= 'township/2'
+export const Get_All_Township_Details= 'township'
+export const Get_User_Details='users/'
